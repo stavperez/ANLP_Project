@@ -17,3 +17,15 @@ Load the dataset and models. Evaluate pretrained and fine-tuned baseline models.
 Outputs:
 STS comparison between Pretrained baseline and Manager-Worker pipeline
 Combined results table with all model predictions and scores
+
+**Manager Model Notebook**
+A fine-tuned Flan-T5-small model for question decomposition. It takes a complex question and breaks it into step-by-step sub-questions.
+
+Features:
+- Uses the Break dataset (QDMR).
+- Converts questions → structured decompositions.
+- Fine-tunes and saves models in Google Drive.
+- Ready for training + inference in Google Colab.
+
+Usage:
+Via Google Colab - GPU, with the needed libraries able to be installed via pip (code already exists for it, if opened via colab)
